@@ -1,0 +1,38 @@
+form{
+    display:block;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+input{
+    margin :1%;
+    padding :1%;
+    background-color: ivory;
+    border: none;
+    outline: 2px solid rgb(5, 5, 5);
+    border-radius: 5px;
+}
+button
+{
+    margin :1%;
+    padding :1%;
+    background-color: ivory;
+    border: none;
+    outline: 2px solid rgb(18, 18, 18);
+    border-radius: 5px;
+}
+
+input:valid {
+ 
+    outline: 2px solid rgb(6, 203, 68);
+   
+}
+input:invalid{
+    
+    outline: 2px solid rgb(203, 13, 6);
+}
+
+.hide{
+    visibility: hidden;
+}
